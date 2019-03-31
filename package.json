@@ -6,7 +6,11 @@
   "scripts": {
     "build:all": "tsc",
     "build:test": "tsc test.ts",
-    "exe:test": "node dist/test.js"
+    "build:test-read-txt": "tsc test-read-txt.ts",
+    "build:test-read-csv": "tsc test-read-csv.ts",
+    "exe:test": "node dist/test.js",
+    "exe:test-read-txt": "node dist/test-read-txt.js",
+    "exe:test-read-csv": "node dist/test-read-csv.js"
   },
   "repository": {
     "type": "git",
