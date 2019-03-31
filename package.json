@@ -1,0 +1,27 @@
+{
+  "name": "node-script-env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:all": "tsc",
+    "build:test": "tsc test.ts",
+    "exe:test": "node dist/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukegeiken4/node-script-env.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukegeiken4/node-script-env/issues"
+  },
+  "homepage": "https://github.com/lukegeiken4/node-script-env#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^11.12.2",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.4.1"
+  }
+}
