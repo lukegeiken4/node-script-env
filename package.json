@@ -1,8 +1,15 @@
 {
   "name": "node-script-env",
   "version": "1.0.0",
-  "description": "",
+  "description": "A node environment to create and run Typescript scripts.",
   "main": "index.js",
+  "keywords": [
+    "node",
+    "typescript",
+    "scripts",
+    "env",
+    "environment"
+  ],
   "scripts": {
     "build:all": "tsc",
     "build:test": "tsc test.ts",
